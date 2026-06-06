@@ -16,7 +16,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'patient-assessment-api.interviewprepai.org',
+  baseURL: 'https://patient-assessment-api.interviewprepai.org',
   headers: {
     'Content-Type': 'application/json',
   },
